@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Mellisa's Portfolio</title>
+      <link href="http://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/styles.css">
+      <script src="http://code.jquery.com/jquery-latest.js" async></script>
+      <script src="js/bootstrap.min.js" async></script>
+   </head>
+   <body>
+      <div class="container">
+         <div class="row">
+            <header>
+               <div class="title-logo col-md-3"><img src="images/logo.jpg" alt="logo"></div>
+               <div class="col-md-9 text-right text-uppercase">
+                  <h1 class="title-super text-thin">Mellisa Octaviani</h1>
+                  <h3>Front-end Ninja</h3>
+               </div>
+            </header>
+         </div>
+         <div class="row">
+            <div class="col-md-12">
+               <img class="img-responsive" src="images/computer_800.jpg" sizes="100vw" srcset="images/computer_400.jpg 500w, images/computer_800.jpg 1000w" alt="background computer picture">
+            </div>
+         </div>
+         <!-- The content consists of 3 sub contents -->
+         <section>
+            <div class="row">
+               <div class="col-md-12">
+                  <h2 class="text-muted">Featured Work</h2>
+               </div>
+            </div>
+            <div class="row text-center">
+               <article class="col-md-4">
+                  <img class="img-responsive" src="images/resume_600.jpg" sizes="100vw" srcset="images/resume_300.jpg 500w, images/resume_600.jpg 1000w" alt="Interactive resume" data-toggle="modal"  data-target="#project1" >
+                  <h3 class="text-uppercase">Interactive Resume</h3>
+                  <p><a href="https://github.com/mellisao28/resume">https://github.com/mellisao28/resume</a></p>
+               </article>
+               <article class="col-md-4">
+                  <img class="img-responsive" src="images/frogger_600.jpg" sizes="100vw" srcset="images/frogger_300.jpg 500w, images/frogger_600.jpg 1000w" alt="Frogger" data-toggle="modal"  data-target="#project2">
+                  <h3 class="text-uppercase">Frogger</h3>
+                  <p><a href="https://github.com/mellisao28/frogger">https://github.com/mellisao28/frogger</a></p>
+               </article>
+               <article class="col-md-4">
+                  <img class="img-responsive" src="images/neighborhood_map_600.jpg" sizes="100vw" srcset="images/neighborhood_map_300.jpg 500w, images/neighborhood_map_600.jpg 1000w" alt="Neighborhood Map" data-toggle="modal"  data-target="#project3">
+                  <h3 class="text-uppercase">Neighborhood Map</h3>
+                  <p><a href="https://github.com/mellisao28/map">https://github.com/mellisao28/map</a></p>
+               </article>
+            </div>
+         </section>
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="resumeModal" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h4 class="modal-title" id="resumeModal">Resume</h4>
+               </div>
+               <div class="modal-body">
+                  I am a passionate learner and like to learn many things in life.
+                  Interactive resume is one of my first projects when I started learning front-end web development.
+                  In this interactive resume you can find more about my professional work in IT.
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="froggerModal" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h4 class="modal-title" id="froggerModal">Classic Arcade Game Frogger</h4>
+               </div>
+               <div class="modal-body">
+                  This project is an attempt to clone classic arcade game Frogger. Frogger is a 1981 arcade game developed by Konami, and licensed for North American distribution by Sega-Gremlin. It is regarded as a classic from the golden age of video arcade games, noted for its novel gameplay and theme. 
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="neighborhoodMapModal" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h4 class="modal-title" id="neighborhoodMapModal">Neighborhood Map</h4>
+               </div>
+               <div class="modal-body">
+                  This project is a single page application featuring a map of my neighborhood. This map will show highlighted locations, third-party data about those locations and various ways to browse the content.
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
